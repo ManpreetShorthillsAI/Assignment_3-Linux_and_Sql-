@@ -20,6 +20,8 @@
 
 
 
+
+
 # SQL Tasks 
 ## Task 1: Filtering and Sorting 
 1. Creating the Database and Table 1.1 A new database named assessment was created. 1.2 A new table named orders was created
@@ -194,6 +196,17 @@ SELECT employee_id, name, department
 FROM employees_2024;
 ```
 ![image](https://github.com/user-attachments/assets/aeb9ff96-29b9-4cb3-9f40-74943ef68244)
+
+## Task 4 : Combining Linux and SQL
+Created a shell file which:
+Creates the company_db database.
+Creates the departments table with department information.
+Creates the employees table with employee information, linking each employee to their department using a foreign key (department_id).
+Inserts data into both the departments and employees tables.
+![image](https://github.com/user-attachments/assets/0d779419-e5f5-481e-9f4c-a355a2431906)
+
+
+![image](https://github.com/user-attachments/assets/272169b9-9eab-46e8-8cd0-e51a4ec84723)
 
 
 
