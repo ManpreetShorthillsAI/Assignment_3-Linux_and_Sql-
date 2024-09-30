@@ -1,0 +1,57 @@
+---- created table 2023 batch ---->
+CREATE TABLE `Priyanshu_assignment`.`employee_2023` (
+  `employee_id` INT NOT NULL AUTO_INCREMENT,
+  `name` VARCHAR(45) NOT NULL,
+  `department` VARCHAR(45) NOT NULL,
+  PRIMARY KEY (`employee_id`));
+
+------ created 2024 batch ----->
+CREATE TABLE `Priyanshu_assignment`.`employee_2024` (
+  `employee_id` INT NOT NULL AUTO_INCREMENT,
+  `name` VARCHAR(45) NOT NULL,
+  `department` VARCHAR(45) NULL,
+  PRIMARY KEY (`employee_id`));
+
+----- Inserted value in table 1 ---->
+Insert into employee_2023 (employee_id,name,department)
+values
+(1,"John Doe","Sales"),
+(2,"Jane Smith","Engineering"),
+(3,"Sam Brown","Marketing"),
+(4,"Nancy White","HR"),
+(5,"Paul Black","Finance");
+
+----- value inserted into 2nd table -------->
+Insert into employee_2024 (employee_id,name,department)
+values
+(2,"Jane Smith","Engineering"),
+(3,"Sam Brown","Marketing"),
+(6,"Peter Parker","IT"),
+(7,"Mary Jane","Sales"),
+(8,"Bruce Wayne","Finance");
+
+select * from employee_2024;
+
+---- union command ---->
+select distinct(name) from employee_2023
+union
+select distinct(name) from employee_2024;
+
+
+----- Intersect query ------->
+SELECT name
+FROM employee_2023
+INTERSECT
+SELECT name
+FROM employee_2024;
+
+--- Last Query ----->
+SELECT name
+FROM employee_2023
+EXCEPT
+SELECT name
+FROM employee_2024
+
+
+
+
