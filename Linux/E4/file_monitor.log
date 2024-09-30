@@ -1,0 +1,69 @@
+Monday 30 September 2024 06:36:34 PM IST: Largest file: 1031	/home/shtlp_0139/Assignment_3-Linux_and_Sql-/Linux/Task-4/sample_files/dir3/file8.txt
+Monday 30 September 2024 06:58:03 PM IST: Processing file '/home/shtlp_0139/Assignment_3-Linux_and_Sql-/Linux/Task-4/sample_files/test_file.txt', Size: 32 bytes, Timestamp: 2024-09-30 18:57:30.599424330 +0530
+Monday 30 September 2024 06:58:03 PM IST: Uploaded '/home/shtlp_0139/Assignment_3-Linux_and_Sql-/Linux/Task-4/sample_files/test_file.txt' to database.
+Monday 30 September 2024 06:58:03 PM IST: Largest file: 1031	/home/shtlp_0139/Assignment_3-Linux_and_Sql-/Linux/Task-4/sample_files/dir3/file8.txt
+Monday 30 September 2024 07:09:33 PM IST: Largest file: 1031	/home/shtlp_0139/Assignment_3-Linux_and_Sql-/Linux/Task-4/sample_files/dir3/file8.txt
+Monday 30 September 2024 07:15:46 PM IST: Processing file '/home/shtlp_0139/Assignment_3-Linux_and_Sql-/Linux/Task-4/sample_files/random_data.csv', Size: 239 bytes, Timestamp: 2024-09-30 19:12:19.908459158 +0530
+Monday 30 September 2024 07:15:46 PM IST: Uploaded '/home/shtlp_0139/Assignment_3-Linux_and_Sql-/Linux/Task-4/sample_files/random_data.csv' to database.
+Monday 30 September 2024 07:15:46 PM IST: Processing record ID '1', Name: Alice, Place: Berlin, Job: Artist
+Monday 30 September 2024 07:15:46 PM IST: Uploaded record with ID '1' to database.
+Monday 30 September 2024 07:15:46 PM IST: Processing record ID '2', Name: Bob, Place: Dubai, Job: Architect
+Monday 30 September 2024 07:15:46 PM IST: Uploaded record with ID '2' to database.
+Monday 30 September 2024 07:15:46 PM IST: Processing record ID '3', Name: Frank, Place: Dubai, Job: Chef
+Monday 30 September 2024 07:15:46 PM IST: Uploaded record with ID '3' to database.
+Monday 30 September 2024 07:15:46 PM IST: Processing record ID '4', Name: Jack, Place: Rome, Job: Architect
+Monday 30 September 2024 07:15:46 PM IST: Uploaded record with ID '4' to database.
+Monday 30 September 2024 07:15:46 PM IST: Processing record ID '5', Name: Alice, Place: Toronto, Job: Architect
+Monday 30 September 2024 07:15:46 PM IST: Uploaded record with ID '5' to database.
+Monday 30 September 2024 07:15:46 PM IST: Processing record ID '6', Name: Jack, Place: Cairo, Job: Doctor
+Monday 30 September 2024 07:15:46 PM IST: Uploaded record with ID '6' to database.
+Monday 30 September 2024 07:15:46 PM IST: Processing record ID '7', Name: Ivy, Place: Sydney, Job: Nurse
+Monday 30 September 2024 07:15:46 PM IST: Uploaded record with ID '7' to database.
+Monday 30 September 2024 07:15:46 PM IST: Processing record ID '8', Name: Grace, Place: Sydney, Job: Lawyer
+Monday 30 September 2024 07:15:46 PM IST: Uploaded record with ID '8' to database.
+Monday 30 September 2024 07:15:46 PM IST: Processing record ID '9', Name: Frank, Place: Sydney, Job: Designer
+Monday 30 September 2024 07:15:46 PM IST: Uploaded record with ID '9' to database.
+Monday 30 September 2024 07:15:46 PM IST: Processing record ID '10', Name: David, Place: London, Job: Designer
+Monday 30 September 2024 07:15:46 PM IST: Uploaded record with ID '10' to database.
+Monday 30 September 2024 07:15:46 PM IST: Largest file: 1031	/home/shtlp_0139/Assignment_3-Linux_and_Sql-/Linux/Task-4/sample_files/dir3/file8.txt
+Mon Sep 30 08:08:53 PM IST 2024: Processing file '/home/shtlp_0071/Desktop/Assignment_3-Linux_and_Sql-/Linux/E4/sample_files/dir4/file6.txt', Size: 1029 bytes, Timestamp: 2024-09-30 19:59:08.589753433 +0530
+Mon Sep 30 08:08:53 PM IST 2024: Uploaded '/home/shtlp_0071/Desktop/Assignment_3-Linux_and_Sql-/Linux/E4/sample_files/dir4/file6.txt' to database.
+Mon Sep 30 08:08:53 PM IST 2024: Processing file '/home/shtlp_0071/Desktop/Assignment_3-Linux_and_Sql-/Linux/E4/sample_files/test_file.txt', Size: 32 bytes, Timestamp: 2024-09-30 19:59:08.590753431 +0530
+Mon Sep 30 08:08:53 PM IST 2024: Uploaded '/home/shtlp_0071/Desktop/Assignment_3-Linux_and_Sql-/Linux/E4/sample_files/test_file.txt' to database.
+Mon Sep 30 08:08:53 PM IST 2024: Processing file '/home/shtlp_0071/Desktop/Assignment_3-Linux_and_Sql-/Linux/E4/sample_files/dir1/file1.txt', Size: 1024 bytes, Timestamp: 2024-09-30 19:59:08.578753459 +0530
+Mon Sep 30 08:08:53 PM IST 2024: Uploaded '/home/shtlp_0071/Desktop/Assignment_3-Linux_and_Sql-/Linux/E4/sample_files/dir1/file1.txt' to database.
+Mon Sep 30 08:08:53 PM IST 2024: Processing file '/home/shtlp_0071/Desktop/Assignment_3-Linux_and_Sql-/Linux/E4/sample_files/dir1/file2.txt', Size: 1025 bytes, Timestamp: 2024-09-30 19:59:08.579753457 +0530
+Mon Sep 30 08:08:53 PM IST 2024: Uploaded '/home/shtlp_0071/Desktop/Assignment_3-Linux_and_Sql-/Linux/E4/sample_files/dir1/file2.txt' to database.
+Mon Sep 30 08:08:53 PM IST 2024: Processing file '/home/shtlp_0071/Desktop/Assignment_3-Linux_and_Sql-/Linux/E4/sample_files/dir2/subdir2b/file7.txt', Size: 1030 bytes, Timestamp: 2024-09-30 19:59:08.583753447 +0530
+Mon Sep 30 08:08:53 PM IST 2024: Uploaded '/home/shtlp_0071/Desktop/Assignment_3-Linux_and_Sql-/Linux/E4/sample_files/dir2/subdir2b/file7.txt' to database.
+Mon Sep 30 08:08:53 PM IST 2024: Processing file '/home/shtlp_0071/Desktop/Assignment_3-Linux_and_Sql-/Linux/E4/sample_files/dir2/subdir2b/subdir2b_1/file4.txt', Size: 1027 bytes, Timestamp: 2024-09-30 19:59:08.584753445 +0530
+Mon Sep 30 08:08:53 PM IST 2024: Uploaded '/home/shtlp_0071/Desktop/Assignment_3-Linux_and_Sql-/Linux/E4/sample_files/dir2/subdir2b/subdir2b_1/file4.txt' to database.
+Mon Sep 30 08:08:53 PM IST 2024: Processing file '/home/shtlp_0071/Desktop/Assignment_3-Linux_and_Sql-/Linux/E4/sample_files/dir2/subdir2a/file3.txt', Size: 1026 bytes, Timestamp: 2024-09-30 19:59:08.581753452 +0530
+Mon Sep 30 08:08:53 PM IST 2024: Uploaded '/home/shtlp_0071/Desktop/Assignment_3-Linux_and_Sql-/Linux/E4/sample_files/dir2/subdir2a/file3.txt' to database.
+Mon Sep 30 08:08:53 PM IST 2024: Processing file '/home/shtlp_0071/Desktop/Assignment_3-Linux_and_Sql-/Linux/E4/sample_files/dir3/file8.txt', Size: 1031 bytes, Timestamp: 2024-09-30 19:59:08.586753440 +0530
+Mon Sep 30 08:08:53 PM IST 2024: Uploaded '/home/shtlp_0071/Desktop/Assignment_3-Linux_and_Sql-/Linux/E4/sample_files/dir3/file8.txt' to database.
+Mon Sep 30 08:08:53 PM IST 2024: Processing file '/home/shtlp_0071/Desktop/Assignment_3-Linux_and_Sql-/Linux/E4/sample_files/dir3/subdir3a/file5.txt', Size: 1028 bytes, Timestamp: 2024-09-30 19:59:08.587753438 +0530
+Mon Sep 30 08:08:53 PM IST 2024: Uploaded '/home/shtlp_0071/Desktop/Assignment_3-Linux_and_Sql-/Linux/E4/sample_files/dir3/subdir3a/file5.txt' to database.
+Mon Sep 30 08:08:53 PM IST 2024: Processing file '/home/shtlp_0071/Desktop/Assignment_3-Linux_and_Sql-/Linux/E4/sample_files/random_data.csv', Size: 239 bytes, Timestamp: 2024-09-30 19:59:08.589753433 +0530
+Mon Sep 30 08:08:53 PM IST 2024: Uploaded '/home/shtlp_0071/Desktop/Assignment_3-Linux_and_Sql-/Linux/E4/sample_files/random_data.csv' to database.
+Mon Sep 30 08:08:53 PM IST 2024: Processing record ID '1', Name: Alice, Place: Berlin, Job: Artist
+Mon Sep 30 08:08:53 PM IST 2024: Uploaded record with ID '1' to database.
+Mon Sep 30 08:08:53 PM IST 2024: Processing record ID '2', Name: Bob, Place: Dubai, Job: Architect
+Mon Sep 30 08:08:53 PM IST 2024: Uploaded record with ID '2' to database.
+Mon Sep 30 08:08:53 PM IST 2024: Processing record ID '3', Name: Frank, Place: Dubai, Job: Chef
+Mon Sep 30 08:08:53 PM IST 2024: Uploaded record with ID '3' to database.
+Mon Sep 30 08:08:53 PM IST 2024: Processing record ID '4', Name: Jack, Place: Rome, Job: Architect
+Mon Sep 30 08:08:53 PM IST 2024: Uploaded record with ID '4' to database.
+Mon Sep 30 08:08:53 PM IST 2024: Processing record ID '5', Name: Alice, Place: Toronto, Job: Architect
+Mon Sep 30 08:08:53 PM IST 2024: Uploaded record with ID '5' to database.
+Mon Sep 30 08:08:53 PM IST 2024: Processing record ID '6', Name: Jack, Place: Cairo, Job: Doctor
+Mon Sep 30 08:08:53 PM IST 2024: Uploaded record with ID '6' to database.
+Mon Sep 30 08:08:53 PM IST 2024: Processing record ID '7', Name: Ivy, Place: Sydney, Job: Nurse
+Mon Sep 30 08:08:53 PM IST 2024: Uploaded record with ID '7' to database.
+Mon Sep 30 08:08:53 PM IST 2024: Processing record ID '8', Name: Grace, Place: Sydney, Job: Lawyer
+Mon Sep 30 08:08:53 PM IST 2024: Uploaded record with ID '8' to database.
+Mon Sep 30 08:08:53 PM IST 2024: Processing record ID '9', Name: Frank, Place: Sydney, Job: Designer
+Mon Sep 30 08:08:53 PM IST 2024: Uploaded record with ID '9' to database.
+Mon Sep 30 08:08:53 PM IST 2024: Processing record ID '10', Name: David, Place: London, Job: Designer
+Mon Sep 30 08:08:53 PM IST 2024: Uploaded record with ID '10' to database.
+Mon Sep 30 08:08:54 PM IST 2024: Largest file: 1031	/home/shtlp_0071/Desktop/Assignment_3-Linux_and_Sql-/Linux/E4/sample_files/dir3/file8.txt
