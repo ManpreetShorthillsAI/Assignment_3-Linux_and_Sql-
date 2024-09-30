@@ -1,0 +1,13 @@
+---- created table 2023 batch ---->
+CREATE TABLE `Priyanshu_assignment`.`employee_2023` (
+  `employee_id` INT NOT NULL AUTO_INCREMENT,
+  `name` VARCHAR(45) NOT NULL,
+  `department` VARCHAR(45) NOT NULL,
+  PRIMARY KEY (`employee_id`));
+
+------ created 2024 batch ----->
+CREATE TABLE `Priyanshu_assignment`.`employee_2024` (
+  `employee_id` INT NOT NULL AUTO_INCREMENT,
+  `name` VARCHAR(45) NOT NULL,
+  `department` VARCHAR(45) NULL,
+  PRIMARY KEY (`employee_id`));
