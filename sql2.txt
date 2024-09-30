@@ -31,6 +31,10 @@ values
 (204,"Monitor",300),
 (205,"Keyboard",50);
 
+----- Joins Oders and customer table ---->
+select customer_name,total_amount from customers 
+join Orders on customers.customer_id = Orders.customer_id;
+
 
 
 
