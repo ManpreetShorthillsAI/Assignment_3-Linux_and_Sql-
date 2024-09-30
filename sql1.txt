@@ -25,3 +25,7 @@ values
 
 select order_id, total_amount from Orders where total_amount
  between 100 and 500;
+
+
+<----- 2nd Query ------------>
+select order_id, total_amount from Orders order by total_amount
