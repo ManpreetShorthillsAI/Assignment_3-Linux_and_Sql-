@@ -20,7 +20,6 @@ create_process() {
 # Function to monitor and kill processes starting with "Kill_Me_Please"
 monitor_and_kill_processes() {
     while true; do
-        # Find processes that start with "Kill_Me_Please"
         for pid in $(pgrep -f "^Kill_Me_Please"); do
             # Get the process name
             process_name=$(ps -p $pid -o comm=)
