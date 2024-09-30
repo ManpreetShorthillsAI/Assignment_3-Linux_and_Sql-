@@ -38,3 +38,12 @@ union
 select distinct(name) from employee_2024;
 
 
+----- Intersect query ------->
+SELECT name
+FROM employee_2023
+INTERSECT
+SELECT name
+FROM employee_2024;
+
+
+
