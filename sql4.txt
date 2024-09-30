@@ -1,0 +1,5 @@
+----- Created table ----->
+CREATE TABLE `company_db`.`departments` (
+  `department_id` INT NOT NULL AUTO_INCREMENT,
+  `department_name` VARCHAR(45) NOT NULL,
+  PRIMARY KEY (`department_id`));
