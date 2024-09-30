@@ -1,25 +1,41 @@
 #!/bin/bash
+ 
+LOG_FILE="killed_processes.log"
+ 
+echo "Monitoring and killing processes starting with 'Kill_Me'..."
+ 
+while true
 
-# Log file to record terminated processes
-LOGFILE="killed_processes.log"
+do
 
-# Start an infinite loop to monitor processes
-while true; do
-    # Find and list processes starting with "Kill_Me_Please_"
-    for pid in $(pgrep '^Kill_Me_Please_'); do
-        # Get the process name for the given PID
-        pname=$(ps -p $pid -o comm=)
-        
-        # Log the process name, PID, and kill timestamp to the log file
-        echo "Killed process $pname with PID $pid at $(date)" >> $LOGFILE
+  # Find processes starting with "Kill_Me"
 
-        # Kill the process
-        kill $pid
+  processes=$(ps aux | grep "^.*Kill_Me" | grep -v grep | awk '{print $2, $11}')
+ 
+  if [[ ! -z "$processes" ]]; then
 
-        # Optional: Print to console for real-time feedback
-        echo "Killed process $pname with PID $pid"
-    done
+    while read -r pid pname
 
-    # Wait for 10 seconds before checking again
-    sleep 10
+    do
+
+      # Log the process details before killing
+
+      echo "$(date): Terminating process $pname with PID $pid" >> $LOG_FILE
+ 
+      # Kill the process
+
+      kill -9 $pid
+ 
+      echo "Killed process $pname with PID $pid"
+
+    done <<< "$processes"
+
+  fi
+ 
+  # Sleep for 10 seconds before checking again
+
+  sleep 10
+
 done
+
+ 
