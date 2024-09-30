@@ -13,3 +13,13 @@ values
 (103,"Sam Brown","Chicago"),
 (104,"Nancy White","Milami"),
 (105,"Paul Black","Boston");
+
+
+<--- created another table ------->
+CREATE TABLE `Priyanshu_assignment`.`products` (
+  `product_id` INT NOT NULL AUTO_INCREMENT,
+  `product_name` VARCHAR(45) NOT NULL,
+  `price` INT NOT NULL,
+  PRIMARY KEY (`product_id`));
+
+  
