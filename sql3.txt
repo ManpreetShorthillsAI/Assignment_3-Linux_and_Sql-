@@ -20,3 +20,15 @@ values
 (3,"Sam Brown","Marketing"),
 (4,"Nancy White","HR"),
 (5,"Paul Black","Finance");
+
+----- value inserted into 2nd table -------->
+Insert into employee_2024 (employee_id,name,department)
+values
+(2,"Jane Smith","Engineering"),
+(3,"Sam Brown","Marketing"),
+(6,"Peter Parker","IT"),
+(7,"Mary Jane","Sales"),
+(8,"Bruce Wayne","Finance");
+
+select * from employee_2024;
+
