@@ -11,3 +11,12 @@ CREATE TABLE `Priyanshu_assignment`.`employee_2024` (
   `name` VARCHAR(45) NOT NULL,
   `department` VARCHAR(45) NULL,
   PRIMARY KEY (`employee_id`));
+
+----- Inserted value in table 1 ---->
+Insert into employee_2023 (employee_id,name,department)
+values
+(1,"John Doe","Sales"),
+(2,"Jane Smith","Engineering"),
+(3,"Sam Brown","Marketing"),
+(4,"Nancy White","HR"),
+(5,"Paul Black","Finance");
