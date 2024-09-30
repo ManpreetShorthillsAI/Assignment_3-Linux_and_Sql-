@@ -17,4 +17,7 @@
 
 ## SQL 
 ### Task -1 [filtering and sorting]
+### Task -2 []
+### Task -3 []
+
 
