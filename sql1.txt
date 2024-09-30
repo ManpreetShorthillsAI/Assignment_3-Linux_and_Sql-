@@ -29,3 +29,12 @@ select order_id, total_amount from Orders where total_amount
 
 <----- 2nd Query ------------>
 select order_id, total_amount from Orders order by total_amount
+
+<.......... 3rd Query ..........>
+SELECT *
+FROM Orders
+WHERE total_amount BETWEEN 100 AND 500
+AND order_date >= (SELECT MAX(order_date) FROM Orders) - INTERVAL 30 DAY
+ORDER BY total_amount ASC;
+
+
