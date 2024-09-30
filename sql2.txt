@@ -22,4 +22,15 @@ CREATE TABLE `Priyanshu_assignment`.`products` (
   `price` INT NOT NULL,
   PRIMARY KEY (`product_id`));
 
-  
+  <........Inserted new value in the product table.....>
+  Insert into products (product_id,product_name,price)
+values
+(201,"Laptop",1000),
+(202,"Phone",600),
+(203,"Headphones",100),
+(204,"Monitor",300),
+(205,"Keyboard",50);
+
+
+
+
