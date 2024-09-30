@@ -20,3 +20,14 @@
 ![alt text](Linux/screenshots/Task-3.png)
 
 ---
+
+### Task - 4 []
+
+---
+---
+
+## SQL
+
+### Task - 1 [Filtering and Sorting]
+
+---
