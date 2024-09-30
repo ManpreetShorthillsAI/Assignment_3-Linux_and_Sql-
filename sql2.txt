@@ -4,3 +4,12 @@ CREATE TABLE `Priyanshu_assignment`.`customers` (
   `customer_name` VARCHAR(45) NOT NULL,
   `city` VARCHAR(45) NOT NULL,
   PRIMARY KEY (`customer_id`));
+
+<---- inserted the values ------>
+Insert into customers (customer_id,customer_name,city)
+values
+(101,"John Doe","New York"),
+(102,"Jane Smith","Los Angeles"),
+(103,"Sam Brown","Chicago"),
+(104,"Nancy White","Milami"),
+(105,"Paul Black","Boston");
