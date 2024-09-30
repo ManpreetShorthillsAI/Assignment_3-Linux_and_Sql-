@@ -38,3 +38,9 @@ CREATE TABLE `company_db`.`employees` (
 (4, 'Nancy White', 4, 55000, '2022-10-01'),
 (5, 'Paul Black', 5, 80000, '2020-08-30');
 
+--- show the table ----->
+SELECT * FROM departments;
+
+SELECT * FROM employees;
+
+
