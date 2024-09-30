@@ -45,5 +45,13 @@ INTERSECT
 SELECT name
 FROM employee_2024;
 
+--- Last Query ----->
+SELECT name
+FROM employee_2023
+EXCEPT
+SELECT name
+FROM employee_2024
+
+
 
 
