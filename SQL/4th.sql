@@ -1,42 +1,33 @@
-
-CREATE TABLE `company_db`.`departments` (
-  `department_id` INT NOT NULL AUTO_INCREMENT,
-  `department_name` VARCHAR(45) NOT NULL,
-  PRIMARY KEY (`department_id`));
-
-use company_db;
+#!/bin/bash
+ 
+# Variables
+DB_NAME="company_db"
+MYSQL_USER="your_username"   # Replace with your MySQL username
+MYSQL_PASS="your_password"    # Replace with your MySQL password
+ 
+# Create the database and tables
+mysql -u "$MYSQL_USER" -p"$MYSQL_PASS" -e "
+DROP DATABASE IF EXISTS $DB_NAME;
+CREATE DATABASE $DB_NAME;
+USE $DB_NAME;
+ 
+CREATE TABLE departments (
+    department_id INT PRIMARY KEY,
+    department_name VARCHAR(100)
+);
+ 
 INSERT INTO departments (department_id, department_name) VALUES
 (1, 'Sales'),
 (2, 'Engineering'),
 (3, 'HR'),
 (4, 'Marketing'),
 (5, 'Finance');
+ 
+CREATE TABLE employees (
+    employee_id INT PRIMARY KEY,
+    employee_name VARCHAR(100),
+    department_id INT,
+    salary DECIMAL(10, 2),
+    hire_date
 
-
-CREATE TABLE `company_db`.`employees` (
-  `employee_id` INT NOT NULL AUTO_INCREMENT,
-  `employee_name` VARCHAR(45) NOT NULL,
-  `department_id` INT NOT NULL,
-  `salary` DECIMAL(10,2) NOT NULL,
-  `hire_date` DATE NULL,
-  PRIMARY KEY (`employee_id`),
-  INDEX `department_id_idx` (`department_id` ASC) VISIBLE,
-  CONSTRAINT `department_id`
-    FOREIGN KEY (`department_id`)
-    REFERENCES `company_db`.`departments` (`department_id`)
-    ON DELETE NO ACTION
-    ON UPDATE NO ACTION);
-
-
-    INSERT INTO employees (employee_id, employee_name, department_id, salary, hire_date) VALUES
-(1, 'John Doe', 1, 50000, '2022-01-15'),
-(2, 'Jane Smith', 2, 75000, '2021-05-20'),
-(3, 'Sam Brown', 3, 45000, '2023-03-12'),
-(4, 'Nancy White', 4, 55000, '2022-10-01'),
-(5, 'Paul Black', 5, 80000, '2020-08-30');
-
-SELECT * FROM departments;
-
-SELECT * FROM employees;
-
-
+has context menu
