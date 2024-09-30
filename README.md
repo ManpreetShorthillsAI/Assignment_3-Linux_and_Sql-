@@ -1,16 +1,22 @@
 # Assignment_3-Linux_and_Sql-
 
-## Linux 
+## Linux
 
 ### Task - 1 [File Permissions]
 
 ![alt text](Linux/screenshots/Task-1.png)
 
---
+---
 
 ### Task - 2 [Process Management]
 
 ![alt text](Linux/screenshots/Task-2.1.png)
 ![alt text](Linux/screenshots/Task-2.2.png)
 
-### Task - 3 []
+---
+
+### Task - 3 [Monitor and Kill Process]
+
+![alt text](Linux/screenshots/Task-3.png)
+
+---
