@@ -1,0 +1,9 @@
+2024-09-30 20:26:48 - New or modified file detected: /home/shtlp_0049/Desktop/monitor/gurjot.txt
+2024-09-30 20:26:48 - Processed gurjot.txt (size: 0 bytes, timestamp: 2024-09-30 20:26:48). No duplicate found.
+2024-09-30 20:26:48 - Largest file in the directory: 0	/home/shtlp_0049/Desktop/monitor/gurjot.txt
+2024-09-30 20:29:11 - New or modified file detected: /home/shtlp_0049/Desktop/monitor/newDir
+2024-09-30 20:29:11 - Processed newDir (size: 4096 bytes, timestamp: 2024-09-30 20:29:11). No duplicate found.
+2024-09-30 20:29:11 - Largest file in the directory: 0	/home/shtlp_0049/Desktop/monitor/gurjot.txt
+2024-09-30 20:29:22 - New or modified file detected: /home/shtlp_0049/Desktop/monitor/newDir/gj.txt
+2024-09-30 20:29:22 - Processed gj.txt (size: 0 bytes, timestamp: 2024-09-30 20:29:22). No duplicate found.
+2024-09-30 20:29:22 - Largest file in the directory: 0	/home/shtlp_0049/Desktop/monitor/newDir/gj.txt
