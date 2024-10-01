@@ -13,20 +13,20 @@ Process Management: Used a command to view all running processes and identified 
 
 
 
-## Task - 3 [Monitor and Kill Processes]
+## Task - 3 (Monitor and Kill Processes)
 
 ![alt text](Linux/screenshots/Task-3.png)
 
 Monitoring and Terminating Processes: Developed a shell script called monitor_kill_processes.sh that continuously monitors for new processes. The script detects and terminates any process starting with "Kill_Me" and logs the process name, PID, and termination time into a file named killed_processes.log. Tested the script by creating dummy processes every 10 seconds to ensure it worked as expected.
 
-## Task -4 
+## Task -4 (shell script)
 ![alt text](Linux/screenshots/Linux4part1.png)
 ![alt text](Linux/screenshots/Linux4part2.png)
 
 File Monitoring and Database Upload: Created a shell script to monitor a specific directory for newly created or modified files. The script identifies the largest file, uploads new files to a local SQL database while preventing duplicates, and logs the name, size, and timestamp of processed files, as well as any detected duplicates, in file_monitor.log. Set up a cron job to run the script every 10 seconds.
 
 ## SQL 
-### Task -1 [filtering and sorting]
+### Task -1 (filtering and sorting)
 ![alt text](SQL/Screenshots/SQLqueries1.png)
 ![alt text](SQL/Screenshots/SQLqueries1part2.png)
 ![alt text](SQL/Screenshots/SQLqueries1part3.png)
@@ -39,7 +39,7 @@ Wrote three queries to get-
 3.Filter orders with a total amount between 100 and 500, placed within the last 30 days.
 These examples showcase basic SQL operations like filtering, sorting, and working with date intervals to analyze order data effectively.
 
-### Task -2 [Join with Mulitple Tables]
+### Task -2 (Join with Mulitple Tables)
 ![alt text](SQL/Screenshots/SQL2query1.png)
 
 This project involves creating two tables: customers and products, with details about customers and products, respectively. Sample data for customers (names and cities) and products (names and prices) are inserted into these tables.
@@ -47,7 +47,7 @@ The SQL queries demonstrate joining the customers, orders, and products tables t
 1.Wrote a query to join customers and orders using the customer_id, and display the customer_name and their corresponding total order amount.
 2.Extend the query by joining with the products table to show which products each customer has ordered.
 
-### Task -3 [Set operations]
+### Task -3 (Set operations)
 ![alt text](SQL/Screenshots/SQL3-1.png)
 ![alt text](SQL/Screenshots/SQL3-2.png)
 ![alt text](SQL/Screenshots/SQL3-3.png)
@@ -77,7 +77,7 @@ Employees Who Worked Only in 2023.
 
 3.This query retrieves the list of employees who worked in 2023 but not in 2024 using the EXCEPT operator.
 
-### Task -4 [Combining Linux and SQL]
+### Task -4 (Combining Linux and SQL)
 ![alt text](SQL/Screenshots/SQL4.png)
 ![alt text](SQL/Screenshots/SQL4part2.png)
 ![alt text](SQL/Screenshots/SQL4part3.png)
