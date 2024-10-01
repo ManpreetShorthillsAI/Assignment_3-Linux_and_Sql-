@@ -33,8 +33,8 @@ File Monitoring and Database Upload: Created a shell script to monitor a specifi
 
 This project involves creating a database table called orders, inserting sample data into it, and running SQL queries to filter and sort the data.
 The orders table stores details about customer orders, including order ID, customer ID, order date, and the total amount. Sample data is added for various customers and orders, allowing for meaningful queries.
-1.The SQL queries demonstrate how to retrieve and analyze order data:
-Filter orders where the total amount is between 100 and 500.
+Wrote three queries to get-
+1.Filter orders where the total amount is between 100 and 500.
 2.Retrieve and sort orders by total amount in ascending order.
 3.Filter orders with a total amount between 100 and 500, placed within the last 30 days.
 These examples showcase basic SQL operations like filtering, sorting, and working with date intervals to analyze order data effectively.
@@ -43,11 +43,10 @@ These examples showcase basic SQL operations like filtering, sorting, and workin
 ![alt text](SQL/Screenshots/SQL2query1.png)
 
 This project involves creating two tables: customers and products, with details about customers and products, respectively. Sample data for customers (names and cities) and products (names and prices) are inserted into these tables.
-The SQL queries demonstrate joining the customers, orders, and products tables to perform meaningful analysis:
-A query that retrieves customer names and their total order amounts by joining the customers and orders tables.
-Another query calculates the total order amount for each customer by multiplying product prices with the quantity ordered. It also lists the ordered products using the GROUP_CONCAT function and groups the results by customer.
-These queries allow for deeper insights into customer purchases and product ordering behavior.
-the second query was not working in task 2 
+The SQL queries demonstrate joining the customers, orders, and products tables to perform 
+1.Wrote a query to join customers and orders using the customer_id, and display the customer_name and their corresponding total order amount.
+2.Extend the query by joining with the products table to show which products each customer has ordered.
+
 ### Task -3 []
 ![alt text](SQL/Screenshots/SQL3-1.png)
 ![alt text](SQL/Screenshots/SQL3-2.png)
