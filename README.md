@@ -5,25 +5,38 @@
 
 File Permissions: Created a file named example.txt and modified its permissions so that only I, as the owner, can read and write to it, while the group and others have no access. Verified the permission changes by listing the file details.
 
+touch command to create the example.txt file
+chmod 600 example.txt to cahnge the file permissons as explained above
+
 ## Task - 2(Process Management)
 ![alt text](Linux/screenshots/Task2pic1.png)
 ![alt text](Linux/screenshots/Task2pic2.png)
 
 Process Management: Used a command to view all running processes and identified the process ID (PID) of an active process (such as my terminal). Terminated the process using its PID and confirmed it was successfully stopped.
 
+pidof(processname)
+kill pid
 
 
 ## Task - 3 (Monitor and Kill Processes)
 
 ![alt text](Linux/screenshots/Task-3.png)
 
-Monitoring and Terminating Processes: Developed a shell script called monitor_kill_processes.sh that continuously monitors for new processes. The script detects and terminates any process starting with "Kill_Me" and logs the process name, PID, and termination time into a file named killed_processes.log. Tested the script by creating dummy processes every 10 seconds to ensure it worked as expected.
-
+Shell script that continuously monitors the system for new processes.
+    - First create the process by running the script, `create_dummy_processes.sh`. It will give us the processes with 'Kill_Me' names in it.
+    - Create the scirpt `monitor_kill_processes.sh` which will kill the processes with 'Kill_Me' name init.
+    - A log file `killed_processes.log` will get created, which will show us the killed processes details.
+ 
+-
 ## Task -4 (shell script)
 ![alt text](Linux/screenshots/Linux4part1.png)
 ![alt text](Linux/screenshots/Linux4part2.png)
 
-File Monitoring and Database Upload: Created a shell script to monitor a specific directory for newly created or modified files. The script identifies the largest file, uploads new files to a local SQL database while preventing duplicates, and logs the name, size, and timestamp of processed files, as well as any detected duplicates, in file_monitor.log. Set up a cron job to run the script every 10 seconds.
+ Shell script that monitor for new files, do file size comparison, log the details.
+    - Run the shell script `script.sh` that will monitor the directory `sample_files` and log the details in `file_monitor.log`.
+    - Largest file size will be scaned and shown in the output in the log file `file_monitor.log`.
+    - Set up a cron job to run the script every 10 minutes
+
 
 ## SQL 
 ### Task -1 (filtering and sorting)
