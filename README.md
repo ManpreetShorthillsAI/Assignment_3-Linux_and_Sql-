@@ -1,6 +1,6 @@
 # Assignment_3-Linux_and_Sql-
 ## Linux 
-### Task1 (File Permissions)
+### Task - 1(File Permissions)
 ![!\[alt text\]](Linux/screenshots/Task-1.png)
 
 - `touch command` to create the example.txt file 
@@ -14,7 +14,7 @@
 - Terminated the process using its PID (`kill pid command`) and confirmed it was successfully stopped by giving the `kill command` again and the output being process doesn't exist.
 
 
-## Task - 3 (Monitor and Kill Processes)
+## Task - 3(Monitor and Kill Processes)
 
 ![alt text](Linux/screenshots/Task-3.png)
 
@@ -29,7 +29,7 @@
 - `./create_dummy_processes.sh` to see the killed processes
 
 
-## Task -4 (shell script)
+## Task - 4(shell script)
 ![alt text](Linux/screenshots/Linux4part1.png)
 ![alt text](Linux/screenshots/Linux4part2.png)
 
@@ -40,7 +40,7 @@
 
 
 ## SQL 
-### Task -1 (filtering and sorting)
+### Task - 1(filtering and sorting)
 ![alt text](SQL/Screenshots/SQLqueries1.png)
 ![alt text](SQL/Screenshots/SQLqueries1part2.png)
 ![alt text](SQL/Screenshots/SQLqueries1part3.png)
@@ -53,7 +53,7 @@
 3. Filter orders with a total amount between 100 and 500, placed within the last 30 days.
 - These examples showcase basic SQL operations like filtering, sorting, and working with date intervals.
 
-### Task -2 (Join with Mulitple Tables)
+### Task - 2(Join with Mulitple Tables)
 ![alt text](SQL/Screenshots/SQL2query1.png)
 
 - This project involves creating two tables: customers and products, with details about customers and products, respectively. Sample data for customers (names and cities) and products (names and prices) are inserted into these tables.
@@ -62,7 +62,7 @@
 - Extend the query by joining with the products table to show which products each customer has ordered.
 - Note- This query will not work as the orders table does not have product_id column that is needed to join with the products table and show the product name for each customer.
   
-### Task -3 (Set operations)
+### Task - 3(Set operations)
 ![alt text](SQL/Screenshots/SQL3-1.png)
 ![alt text](SQL/Screenshots/SQL3-2.png)
 ![alt text](SQL/Screenshots/SQL3-3.png)
@@ -90,7 +90,7 @@ This query finds employees who worked in both 2023 and 2024 by using the `INTERS
 3.Employees Who Worked Only in 2023.
 This query retrieves the list of employees who worked in 2023 but not in 2024 using the `EXCEPT operator`.
 
-### Task -4 (Combining Linux and SQL)
+### Task - 4(Combining Linux and SQL)
 ![alt text](SQL/Screenshots/SQL4.png)
 ![alt text](SQL/Screenshots/SQL4part2.png)
 ![alt text](SQL/Screenshots/SQL4part3.png)
