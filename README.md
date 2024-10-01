@@ -1,62 +1,81 @@
-# Assignment_3-Linux_and_Sql-
+# Assignment 3: Linux and SQL
 
-**SQL:-
-Database Creation:**
-We created a new database called company_db to store our data.
+## Linux Exercises
 
-**Table Creation:**
-**We created two tables:**
-departments: This table holds information about different departments, including:
-department_id (unique identifier)
-department_name (name of the department)
+### 1. File Permissions
+- **Task:** Create a file named `example.txt` and change its permissions.
+- **Steps:**
+  1. Create the file using the command `touch example.txt`.
+  2. Set permissions so that only the owner has read and write access with `chmod 600 example.txt`.
+  3. Verify permissions by running `ls -l example.txt`.
 
-employees: This table contains details about employees, including:
-employee_id (unique identifier)
-employee_name (name of the employee)
-department_id (links the employee to a department)
-salary (employee's salary)
-hire_date (date when the employee was hired)
+### 2. Process Management
+- **Task:** Monitor and terminate a running process.
+- **Steps:**
+  1. View running processes using `ps aux`.
+  2. Identify the process ID (PID) of an actively running process.
+  3. Terminate the process using `kill <PID>`, replacing `<PID>` with the actual process ID.
+  4. Verify the process has been terminated by checking the process list again.
 
-**Data Insertion:**
-We added sample data to both tables:
-departments: We filled it with five departments like Sales, Engineering, and Finance.
-employees: We added five employees with their names, salaries, and hire dates.
+### 3. Monitor and Terminate Processes
+- **Task:** Write a script to monitor and terminate processes starting with "Kill_Me".
+- **Steps:**
+  1. Create a script named `monitor_kill_processes.sh` that checks for processes whose names start with "Kill_Me".
+  2. Log the name, PID, and time of termination into a file named `killed_processes.log`.
+  3. Use the provided script to spawn dummy processes every 30 seconds and ensure it has executable permissions with `chmod +x create_dummy_processes.sh`.
 
-**Checking the Data:**
-We learned how to connect to the MySQL database from the terminal.
-We executed SQL commands to view the data in both the departments and employees tables.
+### 4. Monitor for New Files and Data Upload
+- **Task:** Write a script to monitor a directory, compare file sizes, and upload unique data to SQL.
+- **Steps:**
+  1. Create a script named `file_monitor.sh` to monitor a specified directory and its subdirectories for new or modified files.
+  2. Log the details of processed files and check for duplicates.
+  3. Set up a cron job to run the script every 10 minutes by editing the crontab and adding the appropriate line.
 
-**Running SQL from a File:**
-We created an SQL file to store our commands, making it easy to run multiple commands at once.
-We executed this file to see the data, and we also learned how to save the output to another file for later review.
+### Deliverables
+- `monitor_kill_processes.sh`: Shell script for monitoring and terminating processes.
+- `killed_processes.log`: Log of terminated processes.
+- `file_monitor.sh`: Shell script for monitoring files and uploading data.
+- `file_monitor.log`: Log file documenting file processing.
+- Evidence of the cron job setup (screenshot or log).
 
+---
 
+## SQL Exercises
 
-**LINUX:-
-File Permissions:**
-touch command to create the example.txt file
-chmod 600 example.txt modified its permissions so that only I, as the owner, can read and write to it, while the group and others have no access. Verified the permission changes by listing the file details using the ls -l command
+### 1. Filtering and Sorting
+- **Task:** Create an `orders` table, insert records, and query data.
+- **Steps:**
+  1. Create the `orders` table with appropriate columns.
+  2. Insert sample records into the table.
+  3. Write a query to select orders where the total amount is between $100 and $500, sorting the results by total amount in ascending order.
+  4. Extend the query to filter orders placed in the last 30 days.
 
-**Process Management:**
-Used a command to view all running processes.
-Found the process ID (PID) of an actively running process (like my terminal).
-Terminated that process using its PID.
-Checked to ensure that the process was successfully stopped.
+### 2. Join with Multiple Tables
+- **Task:** Create `customers` and `products` tables and perform joins.
+- **Steps:**
+  1. Create the `customers` table with relevant columns and populate it with records.
+  2. Create the `products` table and insert data.
+  3. Write a query to join the `customers` and `orders` tables and display customer names along with their total order amounts.
+  4. Extend the query to include product information.
 
-**Monitoring and Terminating Processes:**
-Shell script that continuously monitors the system for new processes.
-First create the process by running the script, create_dummy_processes.sh. It will give us the processes with 'Kill_Me' names in it.
-Create the scirpt monitor_kill_processes.sh which will kill the processes with 'Kill_Me' name init.
-A log file killed_processes.log will get created, which will show us the killed processes details.
-touch spawn_dummy_processes.sh to create the file.
-Nano spawn_dummy_processes.sh to change the contents of the file using nano editor.
-cat spawn_dummy_processes.sh to see the contents of the file.
-chmod +x create_dummy_processes.sh to change the file permissions to execute
-./create_dummy_processes.sh to see the killed processes
+### 3. Set Operations
+- **Task:** Create employee tables and use set operations.
+- **Steps:**
+  1. Create `employees_2023` and `employees_2024` tables with required columns.
+  2. Insert sample data into both tables.
+  3. Write a query using the UNION operator to get a list of unique employees across both years.
+  4. Write another query using INTERSECT to find employees who worked in both years.
+  5. Use the EXCEPT operator to list employees who worked only in 2023.
 
-**File Monitoring and Database Upload:**
-Logged the name, size, timestamp of processed files, and any duplicates detected into a log file named file_monitor.log.
-The Linux-Task-4-generate.sh script generates random data and outputs it in a file and stores the same data in Mysql table.
-The Linux-Task-4-script.sh file then monitors the directory for new created or modified files and recursively scans all directories for the largest file.
-This data about the files(name, size, and timestamp of processed files, and whether duplicates were detected) is then logged into Linux-Task-4-file_monitor.log file.
-Set up a cron job to run this script every 10 minutes.
+### 4. Combining Linux and SQL
+- **Task:** Write a script to create a new database and tables.
+- **Steps:**
+  1. Create a script named `create_db.sh` that connects to the MySQL server.
+  2. Include commands to create a new database named `company_db` and the required tables.
+  3. Populate both tables with given sample data.
+
+### Deliverables
+- SQL scripts and commands used in the exercises.
+- Evidence of the SQL database created (screenshot of data).
+- A log file documenting all SQL operations and outcomes.
+
