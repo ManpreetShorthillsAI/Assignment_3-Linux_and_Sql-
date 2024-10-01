@@ -47,6 +47,7 @@ The SQL queries demonstrate joining the customers, orders, and products tables t
 A query that retrieves customer names and their total order amounts by joining the customers and orders tables.
 Another query calculates the total order amount for each customer by multiplying product prices with the quantity ordered. It also lists the ordered products using the GROUP_CONCAT function and groups the results by customer.
 These queries allow for deeper insights into customer purchases and product ordering behavior.
+the second query was not working in task 2 
 ### Task -3 []
 ![alt text](SQL/Screenshots/SQL3-1.png)
 ![alt text](SQL/Screenshots/SQL3-2.png)
