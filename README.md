@@ -1,17 +1,17 @@
-### Assignment_3-Linux_and_Sql-
-Markup : <details>
-           <summary>## Table of Contents</summary>
-           <p>1. **File Permissions**
-2. **Process Management**</p>
+# Assignment_3-Linux_and_Sql-
+##<details>
+<summary> Table of Contents</summary>
+<p>1. **File Permissions**
+           2. **Process Management**</p>
          </details>
 
-**Task 1:** File Permissions
+###Task 1: File Permissions
 **Objective**
-Create a file named example.txt.
-Change its permissions so that only the owner has read and write access, and the group and others have no permissions.
-Steps
-Markup: * Create the file:
-          * touch example.txt
+           - Create a file named example.txt.
+           - Change its permissions so that only the owner has read and write access, and the group and others have no permissions.
+**Steps**
+* Create the file:
+           * touch example.txt
 Change permissions: Modify the file permissions using the chmod command to allow the owner to read and write, but revoke permissions for the group and others.
 chmod 600 example.txt
 600 Permission Breakdown:
