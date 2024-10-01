@@ -49,7 +49,7 @@
 - Wrote three queries to get-
 1. Filter orders where the total amount is between 100 and 500 using the `BETWEEN CLAUSE`.
 2. Retrieve and sort orders by total amount in ascending order using `ORDER BY CLAUSE`.
-3. Filter orders with a total amount between 100 and 500, placed within the last 30 days.
+3. Filter orders with a total amount between 100 and 500, placed within the last 30 days `Using curdate clause`.
 - These examples showcase basic SQL operations like filtering, sorting, and working with date intervals.
 
 ### Task - 2(Join with Mulitple Tables)
