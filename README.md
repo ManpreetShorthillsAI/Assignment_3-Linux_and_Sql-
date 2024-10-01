@@ -3,19 +3,19 @@
 ### Task1 (File Permissions)
 ![!\[alt text\]](Linux/screenshots/Task-1.png)
 
-File Permissions: Created a file named example.txt and modified its permissions so that only I, as the owner, can read and write to it, while the group and others have no access. Verified the permission changes by listing the file details.
 
-touch command to create the example.txt file
-chmod 600 example.txt to cahnge the file permissons as explained above
+
+touch command to create the example.txt file 
+chmod 600 example.txt modified its permissions so that only I, as the owner, can read and write to it, while the group and others have no access. Verified the permission changes by listing the file details.
 
 ## Task - 2(Process Management)
 ![alt text](Linux/screenshots/Task2pic1.png)
 ![alt text](Linux/screenshots/Task2pic2.png)
 
-Process Management: Used a command to view all running processes and identified the process ID (PID) of an active process (such as my terminal). Terminated the process using its PID and confirmed it was successfully stopped.
+Process Management: Used a command to view all running processes and identified the process ID (PID) of an active process (such as my terminal) using the pidof(processname). 
+Terminated the process using its PID (kill pid command) and confirmed it was successfully stopped by giving the kill command again and the output being process doesn't exist.
 
-pidof(processname)
-kill pid
+
 
 
 ## Task - 3 (Monitor and Kill Processes)
@@ -26,7 +26,12 @@ Shell script that continuously monitors the system for new processes.
     - First create the process by running the script, `create_dummy_processes.sh`. It will give us the processes with 'Kill_Me' names in it.
     - Create the scirpt `monitor_kill_processes.sh` which will kill the processes with 'Kill_Me' name init.
     - A log file `killed_processes.log` will get created, which will show us the killed processes details.
- 
+Used touch create_dummy_processes.sh to create the file.
+Nano create_dummy_processes.sh to change the contents of the file using nano editor.
+cat create_dummy_processes.sh to see the contents of the file.
+chmod +x create_dummy_processes.sh to change the file permissions to execute 
+./create_dummy_processes.sh to see the killed processes
+
 -
 ## Task -4 (shell script)
 ![alt text](Linux/screenshots/Linux4part1.png)
