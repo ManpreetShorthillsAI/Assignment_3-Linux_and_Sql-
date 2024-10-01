@@ -39,13 +39,15 @@ GROUP BY
  
 -- Extend the query by joining with the products table to show which products each customer has ordered.
  
-SELECT 
-    c.customer_name,
-    p.product_name,
-    SUM(o.total_amount) AS total_order_amount
-FROM 
-    customers c
-JOIN 
-    orders o ON c.customer_id = o.customer_id
-JOIN 
-    products p ON o.product_id = p.product_id;
+-- SELECT 
+--     c.customer_name,
+--     p.product_name,
+--     SUM(o.total_amount) AS total_order_amount
+-- FROM 
+--     customers c
+-- JOIN 
+--     orders o ON c.customer_id = o.customer_id
+-- JOIN 
+--     products p ON o.product_id = p.product_id;
+
+-- NOTE : this query won't run as the "product_id"is not present in the "orders" table means there is no common column between them.
