@@ -33,10 +33,9 @@
 ![alt text](Linux/screenshots/Linux4part1.png)
 ![alt text](Linux/screenshots/Linux4part2.png)
 
- - Shell script that monitor for new files, do file size comparison, log the details.
-    - Run the shell script `script.sh` that will monitor the directory `sample_files` and log the details in `file_monitor.log`.
-    - Largest file size will be scaned and shown in the output in the log file `file_monitor.log`.
-    - Set up a cron job to run the script every 10 minutes
+- The Linux-Task-4-generate.sh script generates random data and outputs it in a file and stores the same data in Mysql table.
+- The Linux-Task-4-script.sh file then monitors the directory for new created or modified files and recursively scans all directories for the largest file.
+- This data about the files(name, size, and timestamp of processed files, and whether duplicates were detected) is then logged into Linux-Task-4-file_monitor.log file.
 
 
 ## SQL 
