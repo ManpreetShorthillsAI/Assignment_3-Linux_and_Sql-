@@ -150,15 +150,15 @@ Linux Exercise:
 
 
      
-  -  Written a script that creates a new SQL database called company_db.
+  -  Written a script that creates a new SQL databases  called company_db.
 
-   -   Inside the script, included commands to create the employees    and     departments tables as described in the  exercises.
+   -   Inside the script, includeded  commands to create the employees    and     departments tables as described in the  exercises.
 
 
 
   -  inserted the  both tables with given data (Dataset for SQL Exercise 4).
 
--   Use the script to execute all commands in one go, and ensure to check the results in the database afterward.
+-    executed all commands in one go, and ensured  and  checked  the results in the database afterward.
 
    ![alt text](sql/Sql_linux_combined.png)
 
