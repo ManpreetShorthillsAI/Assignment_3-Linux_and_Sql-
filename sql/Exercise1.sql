@@ -16,15 +16,21 @@ insert into orders (order_id, customer_id, order_date, total_amount) values
 (6, 105, '2023-09-18', 250.00),
 (7, 106, '2023-07-29', 500.00);
 
+-- Write a query to select orders where the total_amount is between $100 and $500.
+
 SELECT *
 FROM orders
 WHERE total_amount BETWEEN 100 AND 500;
- 
+
+--Sort the results by total_amount in ascending order.
+
 SELECT *
 FROM orders
 WHERE total_amount BETWEEN 100 AND 500
 ORDER BY total_amount ASC;
- 
+
+-- Extend the query to filter orders placed in the last 30 days.
+
 SELECT *
 FROM orders
 WHERE total_amount BETWEEN 100 AND 500

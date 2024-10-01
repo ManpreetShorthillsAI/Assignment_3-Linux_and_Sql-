@@ -1,15 +1,15 @@
 #!/bin/bash
-
+source .env
 # Directory to monitor
-MONITOR_DIR="/home/shtlp_0068/Desktop/Assignment_3-Linux_and_Sql-/Linux/Exercise-4/sample_files"
+MONITOR_DIR=$MONITOR_DIR
 # Log file location
-LOG_FILE="/home/shtlp_0068/Desktop/Assignment_3-Linux_and_Sql-/Linux/Exercise-4/file_monitor.log"
+LOG_FILE=$LOG_FILE
 
 # MySQL database credentials
-DB_HOST="localhost"
-DB_USER="root"
-DB_PASSWORD="Vishnu@1234"
-DB_NAME="file_monitor_db"
+DB_HOST=$DB_HOST
+DB_USER=$DB_USER
+DB_PASSWORD=$DB_PASSWORD
+DB_NAME=$DB_NAME
 
 # Ensure the log file exists
 touch "$LOG_FILE"
