@@ -46,7 +46,7 @@ This project involves creating two tables: customers and products, with details 
 The SQL queries demonstrate joining the customers, orders, and products tables to perform 
 1.Wrote a query to join customers and orders using the customer_id, and display the customer_name and their corresponding total order amount.
 2.Extend the query by joining with the products table to show which products each customer has ordered.
-
+Note- This query will not work as the orders table does not have product_id column that is needed to join with the products table and show the product name for each customer. 
 ### Task -3 (Set operations)
 ![alt text](SQL/Screenshots/SQL3-1.png)
 ![alt text](SQL/Screenshots/SQL3-2.png)
