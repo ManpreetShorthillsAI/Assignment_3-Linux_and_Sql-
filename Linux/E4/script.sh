@@ -1,7 +1,9 @@
 #!/usr/bin/bash
 
-# Load the .env file
-source .env
+# Load environment variables from .env file
+if [ -f .env ]; then
+    export $(grep -v '^#' .env | xargs)
+fi
 
 # Directory to monitor
 MONITOR_DIR= $MONITOR_DIR
