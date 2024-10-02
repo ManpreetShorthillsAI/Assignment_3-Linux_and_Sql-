@@ -4,4 +4,4 @@ This repository contains solutions for Assignment 3, which includes different Li
 
 Linux and SQL   
 
-Each task is in its own folder with a README.md file that explains how the task was completed.
+Each task is in its own folder with a README.md file.
