@@ -1,0 +1,202 @@
+Monday 30 September 2024 06:36:34 PM IST: Largest file: 1031	/home/shtlp_0139/Assignment_3-Linux_and_Sql-/Linux/Task-4/sample_files/dir3/file8.txt
+Monday 30 September 2024 06:58:03 PM IST: Processing file '/home/shtlp_0139/Assignment_3-Linux_and_Sql-/Linux/Task-4/sample_files/test_file.txt', Size: 32 bytes, Timestamp: 2024-09-30 18:57:30.599424330 +0530
+Monday 30 September 2024 06:58:03 PM IST: Uploaded '/home/shtlp_0139/Assignment_3-Linux_and_Sql-/Linux/Task-4/sample_files/test_file.txt' to database.
+Monday 30 September 2024 06:58:03 PM IST: Largest file: 1031	/home/shtlp_0139/Assignment_3-Linux_and_Sql-/Linux/Task-4/sample_files/dir3/file8.txt
+Monday 30 September 2024 07:09:33 PM IST: Largest file: 1031	/home/shtlp_0139/Assignment_3-Linux_and_Sql-/Linux/Task-4/sample_files/dir3/file8.txt
+Monday 30 September 2024 07:15:46 PM IST: Processing file '/home/shtlp_0139/Assignment_3-Linux_and_Sql-/Linux/Task-4/sample_files/random_data.csv', Size: 239 bytes, Timestamp: 2024-09-30 19:12:19.908459158 +0530
+Monday 30 September 2024 07:15:46 PM IST: Uploaded '/home/shtlp_0139/Assignment_3-Linux_and_Sql-/Linux/Task-4/sample_files/random_data.csv' to database.
+Monday 30 September 2024 07:15:46 PM IST: Processing record ID '1', Name: Alice, Place: Berlin, Job: Artist
+Monday 30 September 2024 07:15:46 PM IST: Uploaded record with ID '1' to database.
+Monday 30 September 2024 07:15:46 PM IST: Processing record ID '2', Name: Bob, Place: Dubai, Job: Architect
+Monday 30 September 2024 07:15:46 PM IST: Uploaded record with ID '2' to database.
+Monday 30 September 2024 07:15:46 PM IST: Processing record ID '3', Name: Frank, Place: Dubai, Job: Chef
+Monday 30 September 2024 07:15:46 PM IST: Uploaded record with ID '3' to database.
+Monday 30 September 2024 07:15:46 PM IST: Processing record ID '4', Name: Jack, Place: Rome, Job: Architect
+Monday 30 September 2024 07:15:46 PM IST: Uploaded record with ID '4' to database.
+Monday 30 September 2024 07:15:46 PM IST: Processing record ID '5', Name: Alice, Place: Toronto, Job: Architect
+Monday 30 September 2024 07:15:46 PM IST: Uploaded record with ID '5' to database.
+Monday 30 September 2024 07:15:46 PM IST: Processing record ID '6', Name: Jack, Place: Cairo, Job: Doctor
+Monday 30 September 2024 07:15:46 PM IST: Uploaded record with ID '6' to database.
+Monday 30 September 2024 07:15:46 PM IST: Processing record ID '7', Name: Ivy, Place: Sydney, Job: Nurse
+Monday 30 September 2024 07:15:46 PM IST: Uploaded record with ID '7' to database.
+Monday 30 September 2024 07:15:46 PM IST: Processing record ID '8', Name: Grace, Place: Sydney, Job: Lawyer
+Monday 30 September 2024 07:15:46 PM IST: Uploaded record with ID '8' to database.
+Monday 30 September 2024 07:15:46 PM IST: Processing record ID '9', Name: Frank, Place: Sydney, Job: Designer
+Monday 30 September 2024 07:15:46 PM IST: Uploaded record with ID '9' to database.
+Monday 30 September 2024 07:15:46 PM IST: Processing record ID '10', Name: David, Place: London, Job: Designer
+Monday 30 September 2024 07:15:46 PM IST: Uploaded record with ID '10' to database.
+Monday 30 September 2024 07:15:46 PM IST: Largest file: 1031	/home/shtlp_0139/Assignment_3-Linux_and_Sql-/Linux/Task-4/sample_files/dir3/file8.txt
+Monday 30 September 2024 07:51:53 PM IST: Processing record ID '1', Name: Alice, Place: Berlin, Job: Artist
+Monday 30 September 2024 07:51:53 PM IST: Uploaded record with ID '1' to database.
+Monday 30 September 2024 07:51:53 PM IST: Processing record ID '2', Name: Bob, Place: Dubai, Job: Architect
+Monday 30 September 2024 07:51:53 PM IST: Uploaded record with ID '2' to database.
+Monday 30 September 2024 07:51:53 PM IST: Processing record ID '3', Name: Frank, Place: Dubai, Job: Chef
+Monday 30 September 2024 07:51:53 PM IST: Uploaded record with ID '3' to database.
+Monday 30 September 2024 07:51:53 PM IST: Processing record ID '4', Name: Jack, Place: Rome, Job: Architect
+Monday 30 September 2024 07:51:53 PM IST: Uploaded record with ID '4' to database.
+Monday 30 September 2024 07:51:53 PM IST: Processing record ID '5', Name: Alice, Place: Toronto, Job: Architect
+Monday 30 September 2024 07:51:53 PM IST: Uploaded record with ID '5' to database.
+Monday 30 September 2024 07:51:53 PM IST: Processing record ID '6', Name: Jack, Place: Cairo, Job: Doctor
+Monday 30 September 2024 07:51:53 PM IST: Uploaded record with ID '6' to database.
+Monday 30 September 2024 07:51:53 PM IST: Processing record ID '7', Name: Ivy, Place: Sydney, Job: Nurse
+Monday 30 September 2024 07:51:53 PM IST: Uploaded record with ID '7' to database.
+Monday 30 September 2024 07:51:53 PM IST: Processing record ID '8', Name: Grace, Place: Sydney, Job: Lawyer
+Monday 30 September 2024 07:51:53 PM IST: Uploaded record with ID '8' to database.
+Monday 30 September 2024 07:51:53 PM IST: Processing record ID '9', Name: Frank, Place: Sydney, Job: Designer
+Monday 30 September 2024 07:51:53 PM IST: Uploaded record with ID '9' to database.
+Monday 30 September 2024 07:51:53 PM IST: Processing record ID '10', Name: David, Place: London, Job: Designer
+Monday 30 September 2024 07:51:53 PM IST: Uploaded record with ID '10' to database.
+Monday 30 September 2024 07:51:53 PM IST: Largest file: 1031	/home/shtlp_0070/Downloads/Linux/Task-4/sample_files/dir3/file8.txt
+Monday 30 September 2024 07:52:42 PM IST: Processing record ID '1', Name: Alice, Place: Berlin, Job: Artist
+Monday 30 September 2024 07:52:42 PM IST: Uploaded record with ID '1' to database.
+Monday 30 September 2024 07:52:42 PM IST: Processing record ID '2', Name: Bob, Place: Dubai, Job: Architect
+Monday 30 September 2024 07:52:42 PM IST: Uploaded record with ID '2' to database.
+Monday 30 September 2024 07:52:42 PM IST: Processing record ID '3', Name: Frank, Place: Dubai, Job: Chef
+Monday 30 September 2024 07:52:42 PM IST: Uploaded record with ID '3' to database.
+Monday 30 September 2024 07:52:42 PM IST: Processing record ID '4', Name: Jack, Place: Rome, Job: Architect
+Monday 30 September 2024 07:52:42 PM IST: Uploaded record with ID '4' to database.
+Monday 30 September 2024 07:52:42 PM IST: Processing record ID '5', Name: Alice, Place: Toronto, Job: Architect
+Monday 30 September 2024 07:52:42 PM IST: Uploaded record with ID '5' to database.
+Monday 30 September 2024 07:52:42 PM IST: Processing record ID '6', Name: Jack, Place: Cairo, Job: Doctor
+Monday 30 September 2024 07:52:42 PM IST: Uploaded record with ID '6' to database.
+Monday 30 September 2024 07:52:42 PM IST: Processing record ID '7', Name: Ivy, Place: Sydney, Job: Nurse
+Monday 30 September 2024 07:52:42 PM IST: Uploaded record with ID '7' to database.
+Monday 30 September 2024 07:52:42 PM IST: Processing record ID '8', Name: Grace, Place: Sydney, Job: Lawyer
+Monday 30 September 2024 07:52:42 PM IST: Uploaded record with ID '8' to database.
+Monday 30 September 2024 07:52:42 PM IST: Processing record ID '9', Name: Frank, Place: Sydney, Job: Designer
+Monday 30 September 2024 07:52:42 PM IST: Uploaded record with ID '9' to database.
+Monday 30 September 2024 07:52:42 PM IST: Processing record ID '10', Name: David, Place: London, Job: Designer
+Monday 30 September 2024 07:52:42 PM IST: Uploaded record with ID '10' to database.
+Monday 30 September 2024 07:52:42 PM IST: Largest file: 1031	/home/shtlp_0070/Downloads/Linux/Task-4/sample_files/dir3/file8.txt
+Friday 04 October 2024 03:50:01 PM IST: Processing record ID '1', Name: Alice, Place: Berlin, Job: Artist
+Friday 04 October 2024 03:50:01 PM IST: Uploaded record with ID '1' to database.
+Friday 04 October 2024 03:50:01 PM IST: Processing record ID '2', Name: Bob, Place: Dubai, Job: Architect
+Friday 04 October 2024 03:50:01 PM IST: Uploaded record with ID '2' to database.
+Friday 04 October 2024 03:50:01 PM IST: Processing record ID '3', Name: Frank, Place: Dubai, Job: Chef
+Friday 04 October 2024 03:50:01 PM IST: Uploaded record with ID '3' to database.
+Friday 04 October 2024 03:50:01 PM IST: Processing record ID '4', Name: Jack, Place: Rome, Job: Architect
+Friday 04 October 2024 03:50:01 PM IST: Uploaded record with ID '4' to database.
+Friday 04 October 2024 03:50:01 PM IST: Processing record ID '5', Name: Alice, Place: Toronto, Job: Architect
+Friday 04 October 2024 03:50:01 PM IST: Uploaded record with ID '5' to database.
+Friday 04 October 2024 03:50:01 PM IST: Processing record ID '6', Name: Jack, Place: Cairo, Job: Doctor
+Friday 04 October 2024 03:50:01 PM IST: Uploaded record with ID '6' to database.
+Friday 04 October 2024 03:50:01 PM IST: Processing record ID '7', Name: Ivy, Place: Sydney, Job: Nurse
+Friday 04 October 2024 03:50:01 PM IST: Uploaded record with ID '7' to database.
+Friday 04 October 2024 03:50:01 PM IST: Processing record ID '8', Name: Grace, Place: Sydney, Job: Lawyer
+Friday 04 October 2024 03:50:01 PM IST: Uploaded record with ID '8' to database.
+Friday 04 October 2024 03:50:01 PM IST: Processing record ID '9', Name: Frank, Place: Sydney, Job: Designer
+Friday 04 October 2024 03:50:01 PM IST: Uploaded record with ID '9' to database.
+Friday 04 October 2024 03:50:01 PM IST: Processing record ID '10', Name: David, Place: London, Job: Designer
+Friday 04 October 2024 03:50:01 PM IST: Uploaded record with ID '10' to database.
+Friday 04 October 2024 03:50:01 PM IST: Largest file: 1031	/home/shtlp_0070/Desktop/Assignment3/Assignment_3-Linux_and_Sql-/Linux/linux_task4/sample_files/dir3/file8.txt
+2024-10-04 15:53:35 - Largest file: file8.txt (Size: 1031 bytes)
+2024-10-04 16:00:01 - Largest file: file8.txt (Size: 1031 bytes)
+2024-10-04 16:05:01 - Largest file: file8.txt (Size: 1031 bytes)
+2024-10-04 16:10:01 - Largest file: file8.txt (Size: 1031 bytes)
+2024-10-04 16:10:01 - Largest file: file8.txt (Size: 1031 bytes)
+2024-10-04 16:15:01 - Largest file: file8.txt (Size: 1031 bytes)
+2024-10-04 16:15:01 - Largest file: file8.txt (Size: 1031 bytes)
+2024-10-04 16:20:01 - Largest file: file8.txt (Size: 1031 bytes)
+2024-10-04 16:20:01 - Largest file: file8.txt (Size: 1031 bytes)
+2024-10-04 16:20:01 - Largest file: file8.txt (Size: 1031 bytes)
+2024-10-04 16:25:01 - Largest file: file8.txt (Size: 1031 bytes)
+2024-10-04 16:25:01 - Largest file: file8.txt (Size: 1031 bytes)
+2024-10-04 16:25:01 - Largest file: file8.txt (Size: 1031 bytes)
+2024-10-04 16:30:01 - Largest file: file8.txt (Size: 1031 bytes)
+2024-10-04 16:30:01 - Largest file: file8.txt (Size: 1031 bytes)
+2024-10-04 16:30:01 - Largest file: file8.txt (Size: 1031 bytes)
+2024-10-04 16:30:01 - Largest file: file8.txt (Size: 1031 bytes)
+2024-10-04 16:35:01 - Largest file: file8.txt (Size: 1031 bytes)
+2024-10-04 16:35:01 - Largest file: file8.txt (Size: 1031 bytes)
+2024-10-04 16:35:01 - Largest file: file8.txt (Size: 1031 bytes)
+2024-10-04 16:35:01 - Largest file: file8.txt (Size: 1031 bytes)
+2024-10-04 16:40:01 - Largest file: file8.txt (Size: 1031 bytes)
+2024-10-04 16:40:01 - Largest file: file8.txt (Size: 1031 bytes)
+2024-10-04 16:40:01 - Largest file: file8.txt (Size: 1031 bytes)
+2024-10-04 16:40:01 - Largest file: file8.txt (Size: 1031 bytes)
+2024-10-04 16:40:01 - Largest file: file8.txt (Size: 1031 bytes)
+2024-10-04 16:45:01 - Largest file: file8.txt (Size: 1031 bytes)
+2024-10-04 16:45:01 - Largest file: file8.txt (Size: 1031 bytes)
+2024-10-04 16:45:01 - Largest file: file8.txt (Size: 1031 bytes)
+2024-10-04 16:45:01 - Largest file: file8.txt (Size: 1031 bytes)
+2024-10-04 16:45:01 - Largest file: file8.txt (Size: 1031 bytes)
+2024-10-04 16:50:01 - Largest file: file8.txt (Size: 1031 bytes)
+2024-10-04 16:50:01 - Largest file: file8.txt (Size: 1031 bytes)
+2024-10-04 16:50:01 - Largest file: file8.txt (Size: 1031 bytes)
+2024-10-04 16:50:01 - Largest file: file8.txt (Size: 1031 bytes)
+2024-10-04 16:50:01 - Largest file: file8.txt (Size: 1031 bytes)
+2024-10-04 16:50:01 - Largest file: file8.txt (Size: 1031 bytes)
+2024-10-04 16:55:01 - Largest file: file8.txt (Size: 1031 bytes)
+2024-10-04 16:55:01 - Largest file: file8.txt (Size: 1031 bytes)
+2024-10-04 16:55:01 - Largest file: file8.txt (Size: 1031 bytes)
+2024-10-04 16:55:01 - Largest file: file8.txt (Size: 1031 bytes)
+2024-10-04 16:55:01 - Largest file: file8.txt (Size: 1031 bytes)
+2024-10-04 16:55:01 - Largest file: file8.txt (Size: 1031 bytes)
+2024-10-04 17:00:01 - Largest file: file8.txt (Size: 1031 bytes)
+2024-10-04 17:00:01 - Largest file: file8.txt (Size: 1031 bytes)
+2024-10-04 17:00:01 - Largest file: file8.txt (Size: 1031 bytes)
+2024-10-04 17:00:01 - Largest file: file8.txt (Size: 1031 bytes)
+2024-10-04 17:00:01 - Largest file: file8.txt (Size: 1031 bytes)
+2024-10-04 17:00:01 - Largest file: file8.txt (Size: 1031 bytes)
+2024-10-04 17:00:01 - Largest file: file8.txt (Size: 1031 bytes)
+2024-10-04 17:05:01 - Largest file: file8.txt (Size: 1031 bytes)
+2024-10-04 17:05:01 - Largest file: file8.txt (Size: 1031 bytes)
+2024-10-04 17:05:01 - Largest file: file8.txt (Size: 1031 bytes)
+2024-10-04 17:05:01 - Largest file: file8.txt (Size: 1031 bytes)
+2024-10-04 17:05:01 - Largest file: file8.txt (Size: 1031 bytes)
+2024-10-04 17:05:01 - Largest file: file8.txt (Size: 1031 bytes)
+2024-10-04 17:05:01 - Largest file: file8.txt (Size: 1031 bytes)
+2024-10-04 17:10:01 - Largest file: file8.txt (Size: 1031 bytes)
+2024-10-04 17:10:01 - Largest file: file8.txt (Size: 1031 bytes)
+2024-10-04 17:10:01 - Largest file: file8.txt (Size: 1031 bytes)
+2024-10-04 17:10:01 - Largest file: file8.txt (Size: 1031 bytes)
+2024-10-04 17:10:01 - Largest file: file8.txt (Size: 1031 bytes)
+2024-10-04 17:10:01 - Largest file: file8.txt (Size: 1031 bytes)
+2024-10-04 17:10:01 - Largest file: file8.txt (Size: 1031 bytes)
+2024-10-04 17:10:01 - Largest file: file8.txt (Size: 1031 bytes)
+2024-10-04 17:15:01 - Largest file: file8.txt (Size: 1031 bytes)
+2024-10-04 17:15:01 - Largest file: file8.txt (Size: 1031 bytes)
+2024-10-04 17:15:01 - Largest file: file8.txt (Size: 1031 bytes)
+2024-10-04 17:15:01 - Largest file: file8.txt (Size: 1031 bytes)
+2024-10-04 17:15:01 - Largest file: file8.txt (Size: 1031 bytes)
+2024-10-04 17:15:01 - Largest file: file8.txt (Size: 1031 bytes)
+2024-10-04 17:15:01 - Largest file: file8.txt (Size: 1031 bytes)
+2024-10-04 17:15:01 - Largest file: file8.txt (Size: 1031 bytes)
+2024-10-04 17:20:01 - Largest file: file8.txt (Size: 1031 bytes)
+2024-10-04 17:20:01 - Largest file: file8.txt (Size: 1031 bytes)
+2024-10-04 17:20:01 - Largest file: file8.txt (Size: 1031 bytes)
+2024-10-04 17:20:01 - Largest file: file8.txt (Size: 1031 bytes)
+2024-10-04 17:20:01 - Largest file: file8.txt (Size: 1031 bytes)
+2024-10-04 17:20:01 - Largest file: file8.txt (Size: 1031 bytes)
+2024-10-04 17:20:01 - Largest file: file8.txt (Size: 1031 bytes)
+2024-10-04 17:20:01 - Largest file: file8.txt (Size: 1031 bytes)
+2024-10-04 17:20:01 - Largest file: file8.txt (Size: 1031 bytes)
+2024-10-04 17:25:01 - Largest file: file8.txt (Size: 1031 bytes)
+2024-10-04 17:25:01 - Largest file: file8.txt (Size: 1031 bytes)
+2024-10-04 17:25:01 - Largest file: file8.txt (Size: 1031 bytes)
+2024-10-04 17:25:01 - Largest file: file8.txt (Size: 1031 bytes)
+2024-10-04 17:25:01 - Largest file: file8.txt (Size: 1031 bytes)
+2024-10-04 17:25:01 - Largest file: file8.txt (Size: 1031 bytes)
+2024-10-04 17:25:01 - Largest file: file8.txt (Size: 1031 bytes)
+2024-10-04 17:25:01 - Largest file: file8.txt (Size: 1031 bytes)
+2024-10-04 17:25:01 - Largest file: file8.txt (Size: 1031 bytes)
+2024-10-04 17:30:01 - Largest file: file8.txt (Size: 1031 bytes)
+2024-10-04 17:30:01 - Largest file: file8.txt (Size: 1031 bytes)
+2024-10-04 17:30:01 - Largest file: file8.txt (Size: 1031 bytes)
+2024-10-04 17:30:01 - Largest file: file8.txt (Size: 1031 bytes)
+2024-10-04 17:30:01 - Largest file: file8.txt (Size: 1031 bytes)
+2024-10-04 17:30:01 - Largest file: file8.txt (Size: 1031 bytes)
+2024-10-04 17:30:01 - Largest file: file8.txt (Size: 1031 bytes)
+2024-10-04 17:30:01 - Largest file: file8.txt (Size: 1031 bytes)
+2024-10-04 17:30:01 - Largest file: file8.txt (Size: 1031 bytes)
+2024-10-04 17:30:01 - Largest file: file8.txt (Size: 1031 bytes)
+2024-10-04 17:35:01 - Largest file: file8.txt (Size: 1031 bytes)
+2024-10-04 17:35:01 - Largest file: file8.txt (Size: 1031 bytes)
+2024-10-04 17:35:01 - Largest file: file8.txt (Size: 1031 bytes)
+2024-10-04 17:35:01 - Largest file: file8.txt (Size: 1031 bytes)
+2024-10-04 17:35:01 - Largest file: file8.txt (Size: 1031 bytes)
+2024-10-04 17:35:01 - Largest file: file8.txt (Size: 1031 bytes)
+2024-10-04 17:35:01 - Largest file: file8.txt (Size: 1031 bytes)
+2024-10-04 17:35:01 - Largest file: file8.txt (Size: 1031 bytes)
+2024-10-04 17:35:01 - Largest file: file8.txt (Size: 1031 bytes)
+2024-10-04 17:35:01 - Largest file: file8.txt (Size: 1031 bytes)
