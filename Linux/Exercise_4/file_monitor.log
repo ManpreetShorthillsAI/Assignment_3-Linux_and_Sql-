@@ -1,0 +1,8 @@
+2024-10-02 16:57:48 - New or modified file detected: /home/shtlp_0057/Desktop/monitor/newfile.txt
+mysql: [Warning] Using a password on the command line interface can be insecure.
+2024-10-02 16:57:48 - Processed newfile.txt (size: 0 bytes, timestamp: 2024-10-02 16:57:48). No duplicate found.
+2024-10-02 16:57:48 - Largest file in the directory: 0	/home/shtlp_0057/Desktop/monitor/newfile.txt
+2024-10-02 16:57:55 - New or modified file detected: /home/shtlp_0057/Desktop/monitor/newdir
+mysql: [Warning] Using a password on the command line interface can be insecure.
+2024-10-02 16:57:55 - Processed newdir (size: 4096 bytes, timestamp: 2024-10-02 16:57:55). No duplicate found.
+2024-10-02 16:57:55 - Largest file in the directory: 0	/home/shtlp_0057/Desktop/monitor/newfile.txt
