@@ -1,27 +1,27 @@
-#!/usr/bin/bash
+#!/bin/bash
  
-# Log file for killed processes
 LOG_FILE="killed_processes.log"
  
-# Create or clear the log file at the start
-> "$LOG_FILE"
+echo "Monitoring and killing processes starting with 'Kill_Me'..."
  
-echo "Monitoring for processes that start with 'Kill_Me'. Press [Ctrl+C] to stop."
+while true
+do
+  # Find processes starting with "Kill_Me"
+  processes=$(ps aux | grep "^.*Kill_Me" | grep -v grep | awk '{print $2, $11}')
  
-# Infinite loop to monitor processes
-while true; do
-    # Find processes that start with "Kill_Me"
-    for pid in $(pgrep "^Kill_Me"); do
-        # Get the process name
-        process_name=$(ps -p "$pid" -o comm=)
+  if [[ ! -z "$processes" ]]; then
+    while read -r pid pname
+    do
+      # Log the process details before killing
+      echo "$(date): Terminating process $pname with PID $pid" >> $LOG_FILE
  
-        # Log the details
-        echo "$(date +'%Y-%m-%d %H:%M:%S') - Killed process: $process_name (PID: $pid)" >> "$LOG_FILE"
-        # Kill the process
-        kill "$pid"
-        echo "Killed process: $process_name (PID: $pid)"
-    done
+      # Kill the process
+      kill -9 $pid
  
-    # Sleep for a short duration to avoid high CPU usage
-    sleep 5
+      echo "Killed process $pname with PID $pid"
+    done <<< "$processes"
+  fi
+ 
+  # Sleep for 10 seconds before checking again
+  sleep 10
 done
